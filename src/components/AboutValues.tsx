@@ -1,7 +1,7 @@
 "use client";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import * as React from "react";
-// import { HERO_TITLE_CLASS } from "../lib/typography";
+import { HERO_TITLE_CLASS } from "../lib/typography";
 
 export default function AboutValues() {
   const prefersReducedMotion = useReducedMotion();
@@ -41,7 +41,7 @@ export default function AboutValues() {
                 
                 {/* Right side - keywords */}
                 <div className="col-span-12 md:col-span-5 flex flex-col items-end justify-center -mr-12 -mt-80">
-                      <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-right text-white">
+                      <h2 className={`${HERO_TITLE_CLASS} text-right text-white`}>
                     <span className="block">Passion.</span>
                     <span className="block" style={{ color: "var(--brand-gold)" }}>Creativity.</span>
                     <span className="block">Strategy.</span>
