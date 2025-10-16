@@ -196,13 +196,7 @@ export default function Header() {
                 Work
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[var(--brand-gold)] transition-all duration-300 ease-out group-hover:w-full"></span>
               </Link>
-              <Link 
-                href="/services" 
-                className={`${textColor} font-medium uppercase tracking-wide relative group transition-colors duration-200`}
-              >
-                Service
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[var(--brand-gold)] transition-all duration-300 ease-out group-hover:w-full"></span>
-              </Link>
+            
               <Link 
                 href="/about" 
                 className={`${textColor} font-medium uppercase tracking-wide relative group transition-colors duration-200`}
@@ -262,26 +256,49 @@ export default function Header() {
                 </svg>
               </a>
 
-              {/* Facebook Icon */}
-              <a
-                href="https://www.facebook.com/DepictBrands/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`${iconColor} hover:text-[var(--brand-gold)] transition-colors duration-200 p-1`}
-                aria-label="Facebook"
-              >
-                <svg 
-                  className="w-5 h-5" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path 
-                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" 
-                    strokeWidth={2}
-                  />
-                </svg>
-              </a>
+                  {/* Facebook Icon */}
+                  <a
+                    href="https://www.facebook.com/DepictBrands/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${iconColor} hover:text-[var(--brand-gold)] transition-colors duration-200 p-1`}
+                    aria-label="Facebook"
+                  >
+                    <svg 
+                      className="w-5 h-5" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" 
+                        strokeWidth={2}
+                      />
+                    </svg>
+                  </a>
+
+                  {/* LinkedIn Icon */}
+                  <a
+                    href="https://www.linkedin.com/company/depict-brands/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${iconColor} hover:text-[var(--brand-gold)] transition-colors duration-200 p-1`}
+                    aria-label="LinkedIn"
+                  >
+                    <svg 
+                      className="w-5 h-5" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" 
+                        strokeWidth={2}
+                      />
+                      <rect x="2" y="9" width="4" height="12" strokeWidth={2}/>
+                      <circle cx="4" cy="4" r="2" strokeWidth={2}/>
+                    </svg>
+                  </a>
             </div>
 
             {/* Mobile menu button */}

@@ -624,6 +624,16 @@ year: 2025,
   solutions: ["Environmental", "Branding"],
   year: 2023,
 },
+{
+  id: "fort-points-art",
+  title: "Fort Points Art",
+  cover: "/images/community/fortpoint-web.mp4",
+  coverMobile: "/images/community/fortpoint-mobile.mp4",
+  coverFallback: "/images/community/fortpoint-cover.webp",
+  industry: ["Community"],
+  solutions: ["Website"],
+  year: 2023,
+},
 //Education & Government
 {
   id: "college-board",
@@ -643,6 +653,7 @@ year: 2025,
   solutions: ["Branding"],
   year: 2025,
 },
+
 
 {
   id: "lexington-college",
@@ -687,7 +698,7 @@ year: 2025,
 {
   id: "loudres-tennis",
   title: "Loudres Tennis",
-  cover: "/images/educat  ion-government/loudres-tennis.webp",
+  cover: "/images/education-government/loudres-tennis.webp",
   industry: ["Education & Government"],
   solutions: ["Branding"],
   year: 2025, //check year
