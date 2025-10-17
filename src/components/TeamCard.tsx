@@ -15,8 +15,8 @@ export default function TeamCard({
     return () => window.removeEventListener("keydown", onKey);
   }, [isOpen, setExpandedId]);
 
-  const photoWidth = isOpen ? "32%" : "100%";
-  const detailsWidth = isOpen ? "68%" : "0%";
+  const photoWidth = isOpen ? "40%" : "100%";
+  const detailsWidth = isOpen ? "60%" : "0%";
 
   return (
     <div className="relative">
@@ -24,10 +24,10 @@ export default function TeamCard({
         type="button"
         aria-expanded={isOpen}
         onClick={() => setExpandedId(isOpen ? null : member.id)}
-        className="group relative block w-full overflow-hidden rounded-2xl bg-neutral-900/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-black"
+        className="group relative block w-full overflow-hidden bg-neutral-900/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-black"
         layout
         transition={{ type: "tween", ease: [0.65,0,0.35,1], duration: 0.5 }}
-        style={{ aspectRatio: "4/5" }}
+        style={{ aspectRatio: "16/9" }}
       >
         <div className="absolute inset-0 flex">
           {/* Photo pane */}
@@ -35,11 +35,10 @@ export default function TeamCard({
             animate={{ width: photoWidth }}
             transition={{ type: "tween", ease: [0.65,0,0.35,1], duration: 0.55 }}>
             <img src={member.photoSrc} alt={`${member.name} — ${member.title}`} className="h-full w-full object-cover" />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/20 to-transparent"></div>
             <div className="pointer-events-none absolute inset-x-0 bottom-0 p-4">
-              <div className="rounded-xl bg-gradient-to-t from-black/55 via-black/20 to-transparent p-4">
-                <p className="text-white text-xl font-semibold leading-tight">{member.name}</p>
-                <p className="text-white/80 text-sm">{member.title}</p>
-              </div>
+              <p className="text-white text-xl font-semibold leading-tight relative inline-block group-hover:after:w-full after:w-0 after:h-0.5 after:bg-[var(--brand-gold)] after:absolute after:-bottom-0.5 after:left-0 after:transition-all after:duration-300 after:ease-out">{member.name}</p>
+              <p className="text-white/80 text-sm">{member.title}</p>
             </div>
           </motion.div>
 

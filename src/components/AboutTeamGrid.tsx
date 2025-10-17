@@ -32,8 +32,8 @@ export default function AboutTeamGrid() {
       />
       
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-[1200px] px-6 pt-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="relative z-10 mx-auto max-w-[1400px] px-6 pt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {TEAM_MEMBERS.map((member) => (
             <TeamCard
               key={member.id}
