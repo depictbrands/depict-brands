@@ -23,7 +23,7 @@ export default function AboutValues() {
       <div className="relative min-h-[160vh]">
         <div className="sticky top-0 h-screen overflow-hidden">
           <motion.div
-            className="absolute inset-0 bg-black"
+            className="absolute inset-0 bg-[#121212]"
             style={prefersReducedMotion ? { inset: 0, borderRadius: 0 } : {
               top: insetPx, right: insetPx, bottom: insetPx, left: insetPx, borderRadius: radiusPx,
             }}

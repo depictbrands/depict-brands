@@ -25,7 +25,7 @@ export default function AboutTeamGrid() {
     <section ref={ref} className="relative py-20" style={{ ["--about-team-inset" as any]: "120" }}>
       {/* Animated background */}
       <motion.div
-        className="absolute inset-0 bg-black"
+        className="absolute inset-0 bg-[#121212]"
         style={prefersReducedMotion ? { inset: 0, borderRadius: 0 } : {
           top: insetPx, right: insetPx, bottom: insetPx, left: insetPx, borderRadius: radiusPx,
         }}

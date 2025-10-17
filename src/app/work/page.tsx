@@ -795,7 +795,7 @@ export default function WorkPage() {
   const hasActiveFilters = activeIndustryTags.length > 0 || activeSolutionTags.length > 0;
 
   return (
-    <main className="bg-black text-white">
+    <main className="bg-[#121212] text-white">
       {/* Hero */}
       <section className="pt-[clamp(4rem,10vw,9rem)] pb-[clamp(3rem,8vw,7rem)]">
         <div className="max-w-screen-2xl mx-auto px-[clamp(1rem,5vw,6rem)]">

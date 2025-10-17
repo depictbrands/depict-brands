@@ -7,7 +7,7 @@ type SectionProps = {
 };
 
 export default function Section({ title, children, background = "light" }: SectionProps) {
-  const bgClass = background === "dark" ? "bg-neutral-900 text-white" : "bg-white";
+  const bgClass = background === "dark" ? "bg-[#121212] text-white" : "bg-white";
   
   return (
     <section className={`${bgClass} py-16`}>

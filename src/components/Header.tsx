@@ -236,6 +236,29 @@ export default function Header() {
                 </svg>
               </button>
 
+               {/* LinkedIn Icon */}
+               <a
+                    href="https://www.linkedin.com/company/depict-brands/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${iconColor} hover:text-[var(--brand-gold)] transition-colors duration-200 p-1`}
+                    aria-label="LinkedIn"
+                  >
+                    <svg 
+                      className="w-5 h-5" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" 
+                        strokeWidth={2}
+                      />
+                      <rect x="2" y="9" width="4" height="12" strokeWidth={2}/>
+                      <circle cx="4" cy="4" r="2" strokeWidth={2}/>
+                    </svg>
+                  </a>
+
               {/* Instagram Icon */}
               <a
                 href="https://www.instagram.com/depictbrands?igsh=MWw1bTM0cmZqODF0bg=="
@@ -277,28 +300,7 @@ export default function Header() {
                     </svg>
                   </a>
 
-                  {/* LinkedIn Icon */}
-                  <a
-                    href="https://www.linkedin.com/company/depict-brands/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`${iconColor} hover:text-[var(--brand-gold)] transition-colors duration-200 p-1`}
-                    aria-label="LinkedIn"
-                  >
-                    <svg 
-                      className="w-5 h-5" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path 
-                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" 
-                        strokeWidth={2}
-                      />
-                      <rect x="2" y="9" width="4" height="12" strokeWidth={2}/>
-                      <circle cx="4" cy="4" r="2" strokeWidth={2}/>
-                    </svg>
-                  </a>
+                 
             </div>
 
             {/* Mobile menu button */}

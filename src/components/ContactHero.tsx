@@ -4,7 +4,7 @@ import PageHeading from '@/components/PageHeading';
 
 export default function ContactHero() {
   return (
-    <section className="bg-black text-white min-h-screen">
+    <section className="bg-[#121212] text-white min-h-screen">
       {/* Hero Section */}
       <div className="mx-auto max-w-[1200px] px-6 pt-20 md:pt-32 pb-8 md:py-12">
         <PageHeading className="text-white">
@@ -27,7 +27,7 @@ export default function ContactHero() {
       </div>
 
       {/* New Contact Section */}
-      <div className="py-20 bg-black">
+      <div className="py-20 bg-[#121212]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {/* Two Column Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">

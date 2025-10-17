@@ -79,7 +79,7 @@ export default function BrandStrategy() {
           >
             {/* Left Phone */}
             <motion.div variants={phoneVariants} className="md:w-auto flex justify-end mt-0 md:mt-0">
-              <div className="bg-black rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
+              <div className="bg-[#121212] rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
                 <img
                   src="/images/yosep/story-mockup-1.webp"
                   alt="Yosep mobile product shot 1"
@@ -90,7 +90,7 @@ export default function BrandStrategy() {
 
             {/* Middle Phone */}
             <motion.div variants={phoneVariants} className="md:w-auto flex justify-center mt-6 md:mt-10">
-              <div className="bg-black rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
+              <div className="bg-[#121212] rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
                 <img
                   src="/images/yosep/story-mockup-2.webp"
                   alt="Yosep mobile product shot 2"
@@ -101,7 +101,7 @@ export default function BrandStrategy() {
 
             {/* Right Phone */}
             <motion.div variants={phoneVariants} className="md:w-auto flex justify-start mt-12 md:mt-20">
-              <div className="bg-black rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
+              <div className="bg-[#121212] rounded-3xl p-2 w-[220px] sm:w-[260px] md:w-[280px]">
                 <img
                   src="/images/yosep/story-mockup-3.webp"
                   alt="Yosep mobile product shot 3"

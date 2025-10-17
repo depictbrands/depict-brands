@@ -87,7 +87,7 @@ export default function YosepPage() {
       <Impact />
       
       {/* Footer */}
-      <footer className="bg-black text-white py-16">
+      <footer className="bg-[#121212] text-white py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-[clamp(1.5rem,3vw,2rem)] font-bold mb-4 font-inter">

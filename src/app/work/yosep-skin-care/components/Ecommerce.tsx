@@ -55,7 +55,7 @@ export default function Ecommerce() {
 
           {/* Website Mockup */}
           <div className="mt-20 max-w-5xl mx-auto sm:-translate-x-12 md:-translate-x-16 lg:-translate-x-20">
-            <div className="bg-black rounded-2xl p-4">
+            <div className="bg-[#121212] rounded-2xl p-4">
               <div className="rounded-b-lg overflow-hidden">
                 <video
                   autoPlay
